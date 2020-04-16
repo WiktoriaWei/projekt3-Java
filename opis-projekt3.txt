@@ -1,0 +1,11 @@
+Dokładne informacje o działaniu programu zostały zawarte w samym programie.
+Program tworzy 200-elementową tablice i losuje jej elementy (maks wartość jednego elementu do 400) oraz je wyświetla.
+Następnie program pyta się użytkownika, którego rodzaju sortowania chce użyc i przy pomocy switch-case użytkownik wybiera metodę.
+Metody zadeklarowe w interfejsie Sortable i rozwinięte w klasach Bąbelkowe i Kubełkowe.
+Sortowanie bąbelkowe zawarte w klasie Bąbelkowe porównuje ze sobą każdy kolejny element tablicy i zamienia miejscami, gdy pierwszy z 2 porównywanych elementów jest większy.
+Następnie wyświetla posortowaną tablicę.
+Występuje tyle porównań ile elementów tablicy minus 1, a więc w tym przypadku 199.
+Natomiast w sortowaniu kubełkowym program tworzy listę kubełków(zadeklarowałam 100 kubełków), następnie listę dla każdego kubełka oraz rozdziela elementy na kubełki.
+Następnie sortuje zawartość poszczególnych kubełków przy pomocy sortowania Bąbelkowego, oraz wyświetla je w posortowanej kolejności.
+Liczba porównań zależy od ilości kubełków(im więcej kubełków tym mniej porównań) oraz sposobu sortowania użytego do posortowania elementów w kubełku.
+W tym przypadku liczba porównań będzie równa sumie porównań z każdego kubełka, która w przypadku sortowania bąbelkowego tu wykorzystanego jest równa liczbie elementów kubełka minus 1.
